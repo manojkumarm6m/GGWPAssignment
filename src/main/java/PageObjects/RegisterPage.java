@@ -59,7 +59,6 @@ public class RegisterPage extends AbstractComponents {
 		lastName.sendKeys("kumar");
 		waitForElementToAppear(email);
 		email.sendKeys(generateUniqueEmail());
-		System.out.println(generateUniqueEmail());
 		waitForElementToAppear(password);
 		password.sendKeys(userPassword);
 		waitForElementToAppear(confirmPassword);

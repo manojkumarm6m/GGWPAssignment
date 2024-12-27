@@ -1,6 +1,5 @@
 package PageObjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,9 +29,7 @@ public class LandingPage extends AbstractComponents {
 	
 	@FindBy(xpath="//div[@aria-label='Incorrect email or password.']")
 	WebElement errorMessage;
-	
-	//By.xpath("//ul[@class=\"top-menu\"]/descendant::a[@href='/books']"
-	
+		
 	@FindBy(xpath = "//ul[@class='top-menu']/descendant::a[@href='/books']")
 	WebElement books;
 	

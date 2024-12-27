@@ -2,9 +2,6 @@ package Tests;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
 import PageObjects.RegisterPage;
 import TestComponents.BaseTest;
 

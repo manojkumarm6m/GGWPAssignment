@@ -27,7 +27,7 @@ public class BaseTest {
 		try (FileInputStream fits = new FileInputStream(path)) {
 		    prop.load(fits);
 		} catch (IOException e) {
-		    e.printStackTrace(); // Handle exception appropriately
+		    e.printStackTrace(); 
 		}
 
 		String browser = prop.getProperty("browser");
